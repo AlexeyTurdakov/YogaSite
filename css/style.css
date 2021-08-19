@@ -478,7 +478,7 @@ header ul li:before {
   color: #c78030;
 }
 .content .counter-total span {
-  font-size: 46px;
+  font-size: 33px;
 }
 .content .counter input[type=number]::-webkit-inner-spin-button,
 .content .counter input[type=number]::-webkit-outer-spin-button {
