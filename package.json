@@ -1,0 +1,29 @@
+{
+  "name": "yogasite",
+  "version": "1.0.0",
+  "description": "yoga site ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexeyTurdakov/YogaSite.git"
+  },
+  "keywords": [
+    "js",
+    "react",
+    "javascript",
+    "webpack"
+  ],
+  "author": "Alexey Turdakov <alexeyturdakov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexeyTurdakov/YogaSite/issues"
+  },
+  "homepage": "https://github.com/AlexeyTurdakov/YogaSite#readme",
+  "devDependencies": {
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
