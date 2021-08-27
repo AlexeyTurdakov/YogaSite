@@ -1,5 +1,6 @@
 function form() {
   'use strict';
+  
   let message = {
     loading: 'Загрузка...',
     success: 'Ваша заявка принята! Спасибо! Скоро мы с вами свяжемся!',
@@ -57,4 +58,4 @@ function form() {
   sendForm(form);
 }
 
-module.exports = form;
+export default form;

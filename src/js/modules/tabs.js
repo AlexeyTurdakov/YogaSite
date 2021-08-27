@@ -1,5 +1,6 @@
 function tabs() {
   'use strict';
+  
   let tab = document.querySelectorAll('.info-header-tab'),
     info = document.querySelector('.info-header'),
     tabContent = document.querySelectorAll('.info-tabcontent');
@@ -31,8 +32,7 @@ function tabs() {
         }
       }
     }
-
   });
 }
 
-module.exports = tabs;
+export default tabs;

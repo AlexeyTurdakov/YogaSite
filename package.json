@@ -4,12 +4,14 @@
   "description": "yoga site ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlexeyTurdakov/YogaSite.git"
   },
+  "browserslist": "> 0.25%, not dead",
   "keywords": [
     "js",
     "react",
@@ -23,7 +25,20 @@
   },
   "homepage": "https://github.com/AlexeyTurdakov/YogaSite#readme",
   "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.2.0",
+    "favicons": "^6.2.2",
+    "favicons-webpack-plugin": "^5.0.2",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.2.0",
     "webpack": "^5.51.1",
     "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
   }
 }

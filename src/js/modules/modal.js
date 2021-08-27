@@ -1,10 +1,10 @@
 function modal() {
   'use strict';
+  
   let more = document.querySelector('.more'),
     overlay = document.querySelector('.overlay'),
     close = document.querySelector('.popup-close'),
     knowMore = document.querySelectorAll('.description-btn');
-
 
   function callModalWindow() {
     if (overlay.style.display == 'block') {
@@ -16,8 +16,6 @@ function modal() {
       this.classList.add('more-splash');
       document.body.style.overflow = 'hidden';
     }
-
-
   }
 
   more.addEventListener('click', callModalWindow);
@@ -25,4 +23,4 @@ function modal() {
   close.addEventListener('click', callModalWindow);
 }
 
-module.exports = modal;
+export default modal;

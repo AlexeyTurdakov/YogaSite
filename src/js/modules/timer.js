@@ -1,5 +1,6 @@
 function timer() {
   'use strict';
+  
   let deadline = Date.parse(new Date()) + 16000000;
 
   function getTimeRemaining(endtime) {
@@ -43,10 +44,8 @@ function timer() {
         seconds.textContent = '00';
       }
     }
-
   }
-
   setClock('timer', deadline);
 }
 
-module.exports = timer;
+export default timer;
