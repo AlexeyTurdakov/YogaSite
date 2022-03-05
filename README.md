@@ -3,3 +3,4 @@ YogaSite
 
 Стек: JS, Bootstrap, PHP, webpack, адаптив, БЭМ
 
+Установка / Запуск: https://webpack.js.org/guides/getting-started/
