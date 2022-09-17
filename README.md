@@ -1,5 +1,5 @@
 YogaSite
-сайт по продаже туров в Индию.
+сайт по продаже туров в Индию. https://alexeyturdakov.github.io/Yoga
 
 Стек: JS, Bootstrap, PHP, webpack, адаптив, БЭМ
 
